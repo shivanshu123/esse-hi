@@ -8,7 +8,11 @@ class sum
 		Scanner sc=new Scanner(System.in);
 		a=sc.nextInt();
 		b=sc.nextInt();
-		int sum=a/b;
-		System.out.println("Division "+sum);
+		int sum=0;
+		if(b!=0)
+		{	sum=a/b;
+			System.out.println("Division "+sum);}
+		else
+			System.out.println("Division Operation is not possible");	
 	}
 }
