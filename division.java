@@ -8,7 +8,7 @@ class sum
 		Scanner sc=new Scanner(System.in);
 		a=sc.nextInt();
 		b=sc.nextInt();
-		int sum=a+b;
-		System.out.println("sum "+sum);
+		int sum=a/b;
+		System.out.println("Division "+sum);
 	}
 }
